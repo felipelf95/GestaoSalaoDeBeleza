@@ -13,6 +13,9 @@ namespace GestaoBeleza.Models
         public string Cargo { get; set; }
         public string Certificados { get; set; }
 
+        public int EnderecoId { get; set; }
+        public virtual Endereco Endereco { get; set; }
+
         public Funcionario(string nome, string sexo, DateTime dataNascimento, string telefone, string email, string cpf,int enderecoId, string cep, string logradouro, string bairro, string cidade, string estado, string numeroCasa, string complemento, int funcionarioId, DateTime dataContratacao, double salario, string cargo, string certificados)
             : base(nome, sexo, dataNascimento, telefone, email, cpf, enderecoId, cep, logradouro, bairro, cidade, estado, numeroCasa, complemento)
         {

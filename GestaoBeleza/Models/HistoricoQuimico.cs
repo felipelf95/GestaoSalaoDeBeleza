@@ -1,9 +1,11 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace GestaoBeleza.Models
 {
     public class HistoricoQuimico
     {
+        [Key]
         public int HistoricoQuimicoId { get; set; }
         public DateTime DataUltimoServicoRealizado { get; set; }
         public string EspecificacoesDosServicos { get; set; }
