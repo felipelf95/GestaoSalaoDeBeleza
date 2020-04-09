@@ -1,0 +1,9 @@
+C:\Users\Felipe\Desktop\GestaoBeleza\GestaoBeleza\obj\Debug\netcoreapp3.1\GestaoBeleza.csprojAssemblyReference.cache
+C:\Users\Felipe\Desktop\GestaoBeleza\GestaoBeleza\obj\Debug\netcoreapp3.1\staticwebassets\GestaoBeleza.StaticWebAssets.Manifest.cache
+C:\Users\Felipe\Desktop\GestaoBeleza\GestaoBeleza\obj\Debug\netcoreapp3.1\staticwebassets\GestaoBeleza.StaticWebAssets.xml
+C:\Users\Felipe\Desktop\GestaoBeleza\GestaoBeleza\obj\Debug\netcoreapp3.1\GestaoBeleza.RazorAssemblyInfo.cache
+C:\Users\Felipe\Desktop\GestaoBeleza\GestaoBeleza\obj\Debug\netcoreapp3.1\GestaoBeleza.RazorAssemblyInfo.cs
+C:\Users\Felipe\Desktop\GestaoBeleza\GestaoBeleza\obj\Debug\netcoreapp3.1\GestaoBeleza.AssemblyInfoInputs.cache
+C:\Users\Felipe\Desktop\GestaoBeleza\GestaoBeleza\obj\Debug\netcoreapp3.1\GestaoBeleza.AssemblyInfo.cs
+C:\Users\Felipe\Desktop\GestaoBeleza\GestaoBeleza\obj\Debug\netcoreapp3.1\GestaoBeleza.TagHelpers.input.cache
+C:\Users\Felipe\Desktop\GestaoBeleza\GestaoBeleza\obj\Debug\netcoreapp3.1\GestaoBeleza.TagHelpers.output.cache

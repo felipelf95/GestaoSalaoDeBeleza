@@ -13,10 +13,18 @@ namespace GestaoBeleza.Models
         public DateTime Validade { get; set; }
         public int Quantidade { get; set; }
         
+        /*
+        public void AddProduct (int quantidade )
+        {
+            Quantidade += quantidade;
+        }
 
-        // definir count para quantidade...
-       
-        
+        public void RemoveProduct(int quantidade)
+        {
+            Quantidade -= quantidade;
+        }
+        */
+
 
     }
 }

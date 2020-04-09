@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -27,11 +27,22 @@ namespace GestaoBeleza
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
+                    // MODELO SALESWEBMVC
+            //services.AddDbContext<ApplicationDbContext>(options =>
+            //            options.UsePostgreSql(Configuration.GetConnectionString("ApplicationDbContext"), builder =>
+            //    builder.MigrationsAssembly("ApplicationDbContext")));
+            
+                // PADRÃO DA APLICAÇÃO
+            //options.UseSqlServer(
+            //    Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            
+            // http://www.macoratti.net/17/05/aspcore_pgsqlef1.htm
+            services.AddEntityFrameworkNpgsql()
+             .AddDbContext<ApplicationDbContext>(options => 
+             options.UseNpgsql(Configuration.GetConnectionString("ApplicationDbContext")));
+
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
