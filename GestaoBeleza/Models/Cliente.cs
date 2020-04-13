@@ -6,7 +6,7 @@ namespace GestaoBeleza.Models.Cliente
 {
     public class Cliente : Pessoa
     {
-        [Key]
+        
         public int ClienteId { get; set; }
         public string Instagram { get; set; }
         public string Facebook { get; set; }
